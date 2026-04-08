@@ -24,6 +24,19 @@ Para a construção deste projeto, utilizei as seguintes tecnologias:
 - **Navegação Inteligente:** Menu fixo (sticky) com *Smooth Scroll* para melhor experiência do usuário.
 - **Hierarquia Visual:** Uso de pseudo-elementos e ícones para facilitar a leitura técnica.
 
+## Design & Inspiração
+
+A identidade visual deste projeto foi cuidadosamente planejada para refletir um perfil técnico e moderno:
+
+* **Layout:** Inspirado no template [Subtle](https://subtle.framer.website/) do Framer, adotando uma estética minimalista e focada em conteúdo.
+* **Paleta de Cores:** Extraída de referências de Dark Mode de alto nível:
+    * **Background:** `#0d0d0d`
+    * **Cards/Header:** `#262626`
+    * **Destaques:** `#333333`
+* **Tipografia:** Utilização da fonte **Open Sans** via Google Fonts para garantir legibilidade e conforto visual.
+
+---
+
 ## Minha Stack de Estudos
 
 O portfólio destaca meu foco nas seguintes áreas:
