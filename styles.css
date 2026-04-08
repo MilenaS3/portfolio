@@ -127,6 +127,10 @@ border-color: aliceblue;
 border-width: 1px;
 background-color: #262626;
 }
+h1 i.fa-circle, h2 i.fa-circle {
+    vertical-align: middle;
+    margin-right: 12px;
+}
 .projects{
     background-color: #333333;
     border-radius: 0.3rem;
