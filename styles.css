@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    flex-wrap: wrap;
+    color: aliceblue;
+    border-width: 0rem;
+}
+body{
+    background-color: #0d0d0d;
+    color: white;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    text-align: center;
+}
+h1{
+    margin: 0;
+}
+header{
+    width: 80vw;
+    height: 8vh;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #262626;
+}
+i {
+  font-size: 2rem;      
+  color: #ffffff;      
+  transition: 0.3s;  
+  cursor: pointer;  
+}
+
+i:hover {
+  transform: scale(1.1); 
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.links{
+display: flex;
+gap: 10px;
+text-align: center;
+align-content: center;
+}
+
+.content{
+    width: 80vw;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    flex-direction: column;
+    background-color: #262626;
+}
+.career{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0s;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 0;
+}
+
+#textInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 0;
+}
+#profile{
+    border-radius: 1rem;
+    size-adjust: absolute;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+img{
+    width: 10vw;
+    border-radius: 10rem;
+    object-fit: cover;
+}
+#buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem
+}
+#hireMe{
+    background-color: #333333;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#copyMail:hover, #hireMe:hover {
+  transform: scale(1.1); 
+}
+#copyMail{
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#copyMail{
+border-color: aliceblue;
+border-width: 1px;
+background-color: #262626;
+}
+.projects{
+    background-color: #333333;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.habilities{
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #333333
+}
+.habilities p{
+    background-color: #262626;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
+    width:fit-content;
+    align-content: start;
+}
+.habilities h1{
+    color: #d9d9d9;
+}
+.tasks{
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.tasks div p{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.projects{
+}
+.projects h2{
+    color: #d9d9d9
+}
+
+#followMe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #333333;
+    align-content: center;
+    margin: 0.5rem;
+    flex-wrap: wrap;
+    font-weight: 700;
+    text-align: center;
+}
+i {
+  font-size: 1.8rem;      
+  color: #ffffff;      
+  transition: 0.3s;    
+}
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    align-content: center;
+}
+footer{
+    text-align: center;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #333333
+}
+
+@media (max-width: 376px) {
+    h1{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    p, a{
+        font-size: 0.8rem;
+        align-content: center;
+    }
+    footer{
+        font-size: 0.6rem;
+    }
+}
+@media (min-width: 400px) {
+    h1{
+        font-size: 1.9rem;
+    }
+    h2{
+        font-size: 1.9rem;
+    }
+    p, a{
+        font-size: 1.2rem;
+        align-content: center;
+    }
+    footer{
+        font-size: 0.9rem;
+    }
+    .tasks div p{
+    text-align: center;
+}
+}
+
